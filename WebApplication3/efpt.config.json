@@ -1,0 +1,51 @@
+﻿{
+   "ContextClassName": "BlockchainContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "DoNotCombineNamespace": false,
+   "IdReplace": false,
+   "IncludeConnectionString": true,
+   "ModelNamespace": "EfModels",
+   "OutputContextPath": null,
+   "OutputPath": "EfModels",
+   "ProjectRootNamespace": "WebApplication3",
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+   "Tables": [
+      {
+         "HasPrimaryKey": true,
+         "Name": "coin_history"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "gaccount"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "gaccount_game"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "gaccount_treasure"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "game"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "treasure"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "user"
+      }
+   ],
+   "UseDatabaseNames": false,
+   "UseDbContextSplitting": false,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseInflector": false,
+   "UseLegacyPluralizer": false,
+   "UseSpatial": false
+}
